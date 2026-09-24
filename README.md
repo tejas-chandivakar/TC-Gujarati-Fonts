@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🅃🄲 Gujarati Fonts
+<img src="assets/logo.png" alt="TC Logo" width="120" />
+
+# TC Gujarati Fonts
 
 ### *Gujarati typefaces for designers, developers & creators*
 
