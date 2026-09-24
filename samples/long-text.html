@@ -2,9 +2,8 @@
 <html lang="gu">
 <head>
 <meta charset="UTF-8">
-<title>Long Text Preview — Display + Body Pairing</title>
+<title>Long Text Preview — Each Font Shown in Full</title>
 <style>
-  /* Display fonts (headings) */
   @font-face { font-family: "Bhakti"; src: url("../fonts/Bhakti.otf"); }
   @font-face { font-family: "Dhanush Vadodara"; src: url("../fonts/Dhanush Vadodara.otf"); }
   @font-face { font-family: "Dhanush Vadodara Dark"; src: url("../fonts/Dhanush Vadodara Dark.otf"); }
@@ -15,18 +14,6 @@
   @font-face { font-family: "Shlock"; src: url("../fonts/Shlock.otf"); }
   @font-face { font-family: "Sundar"; src: url("../fonts/Sundar.otf"); }
   @font-face { font-family: "Tejas"; src: url("../fonts/Tejas.otf"); }
-
-  /* Body font (Noto) */
-  @font-face {
-    font-family: "Noto Sans Gujarati";
-    src: url("../fonts/body/NotoSansGujarati-Regular.ttf");
-    font-weight: 400;
-  }
-  @font-face {
-    font-family: "Noto Sans Gujarati";
-    src: url("../fonts/body/NotoSansGujarati-Bold.ttf");
-    font-weight: 700;
-  }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -69,118 +56,106 @@
     color: #b8390e;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   .article-title {
     font-size: 42px;
-    line-height: 1.25;
+    line-height: 1.3;
     color: #1a1a1a;
     margin-bottom: 14px;
   }
-  .article-subtitle {
-    font-family: "Noto Sans Gujarati", sans-serif;
-    font-size: 17px;
-    color: #6b5b45;
-    margin-bottom: 18px;
-    font-style: italic;
-    line-height: 1.5;
-  }
   .article-body {
-    font-family: "Noto Sans Gujarati", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.75;
     color: #2a2a2a;
   }
-  .article-body p { margin-bottom: 12px; }
-  .article-body b { font-weight: 700; color: #b8390e; }
+  .article-body p { margin-bottom: 10px; }
 </style>
 </head>
 <body>
 
 <header>
   <div class="kicker">TC Gujarati Fonts</div>
-  <h1>Long-Text Pairing Demo — All Display Fonts + Noto Body</h1>
+  <h1>Long-Text Demo — Each Font Shown in Heading + Paragraph</h1>
 </header>
 
 <article>
-  <div class="display-name">Bhakti (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Bhakti</div>
   <div class="article-title" style="font-family: 'Bhakti'">શ્રી ગણેશાય નમઃ</div>
-  <div class="article-subtitle">શુભ પ્રસંગે વાંચવા યોગ્ય એક નાનકડી કૃતિ</div>
-  <div class="article-body">
-    <p>ગુજરાતી ભાષા વિશ્વની સૌથી પ્રાચીન ભાષાઓમાંની એક છે. તેની લિપિ મૂળે બ્રાહ્મી લિપિમાંથી ઉદ્ભવેલી છે, અને આજે લગભગ <b>પાંચ કરોડ</b> લોકો આ ભાષાનો ઉપયોગ કરે છે.</p>
+  <div class="article-body" style="font-family: 'Bhakti'">
+    <p>ગુજરાતી ભાષા વિશ્વની સૌથી પ્રાચીન ભાષાઓમાંની એક છે. તેની લિપિ સદીઓથી વિકાસ પામી છે અને આજે લાખો લોકો દ્વારા વપરાય છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Dhanush Vadodara (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Dhanush Vadodara</div>
   <div class="article-title" style="font-family: 'Dhanush Vadodara'">ગુજરાત ગૌરવ</div>
-  <div class="article-body">
-    <p>ગુજરાત રાજ્યની સંસ્કૃતિ, ખાનપાન, અને પરંપરાઓ સમગ્ર ભારતમાં પ્રખ્યાત છે. ગરબા, દાંડિયા, અને ઉત્તરાયણ જેવા તહેવારો દરેક ગુજરાતીના હૃદયમાં વસેલા છે.</p>
+  <div class="article-body" style="font-family: 'Dhanush Vadodara'">
+    <p>ગુજરાત રાજ્યની સંસ્કૃતિ, ખાનપાન અને પરંપરાઓ સમગ્ર ભારતમાં પ્રખ્યાત છે. ગરબા અને દાંડિયા જેવા તહેવારો દરેક હૃદયમાં વસેલા છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Dhanush Vadodara Dark (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Dhanush Vadodara Dark</div>
   <div class="article-title" style="font-family: 'Dhanush Vadodara Dark'">મોટી જાહેરાત</div>
-  <div class="article-body">
-    <p><b>તાત્કાલિક:</b> આગામી અઠવાડિયે વડોદરા મુકામે યોજાનારા વાર્ષિક સાહિત્ય મહોત્સવમાં દેશભરના પ્રખ્યાત લેખકો ભાગ લેશે.</p>
+  <div class="article-body" style="font-family: 'Dhanush Vadodara Dark'">
+    <p>આગામી અઠવાડિયે શહેરમાં યોજાનારા વાર્ષિક સાહિત્ય મહોત્સવમાં દેશભરના પ્રખ્યાત લેખકો ભાગ લેશે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Kala (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Kala</div>
   <div class="article-title" style="font-family: 'Kala'">કલા અને સંસ્કૃતિ</div>
-  <div class="article-body">
-    <p>ભારતીય કલા સદીઓથી વિકાસ પામી છે — ચિત્રકળા, શિલ્પકળા, નૃત્ય, સંગીત — દરેક કલા સ્વરૂપ પોતાની આગવી ઓળખ ધરાવે છે.</p>
+  <div class="article-body" style="font-family: 'Kala'">
+    <p>ભારતીય કલા સદીઓથી વિકાસ પામી છે. ચિત્ર, શિલ્પ, નૃત્ય અને સંગીત — દરેક કલા સ્વરૂપ પોતાની આગવી ઓળખ ધરાવે છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Patrika (heading) + Noto Sans Gujarati (body)</div>
-  <div class="article-title" style="font-family: 'Patrika'">દેશ-વિદેશના સમાચાર</div>
-  <div class="article-body">
-    <p><b>વડોદરા, ૨૪ સપ્ટેમ્બર:</b> આજે શહેરમાં યોજાયેલ સાહિત્ય મહોત્સવમાં દેશભરના પ્રખ્યાત લેખકોએ ભાગ લીધો હતો. કાર્યક્રમમાં ગુજરાતી, હિન્દી, અને અંગ્રેજી સાહિત્ય પર ઊંડાણપૂર્વક ચર્ચા થઈ.</p>
+  <div class="display-name">Patrika</div>
+  <div class="article-title" style="font-family: 'Patrika'">દેશના સમાચાર</div>
+  <div class="article-body" style="font-family: 'Patrika'">
+    <p>આજે શહેરમાં યોજાયેલ સાહિત્ય મહોત્સવમાં દેશભરના પ્રખ્યાત લેખકોએ ભાગ લીધો હતો. કાર્યક્રમમાં ગુજરાતી અને હિન્દી સાહિત્ય પર ચર્ચા થઈ.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Sahitya (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Sahitya</div>
   <div class="article-title" style="font-family: 'Sahitya'">સાહિત્ય સંગમ</div>
-  <div class="article-body">
-    <p>નરસિંહ મહેતાથી શરૂ કરીને ગોવર્ધનરામ ત્રિપાઠી, ઝવેરચંદ મેઘાણી, અને આધુનિક લેખકો સુધી — ગુજરાતી સાહિત્યની યાત્રા અદ્ભુત રહી છે.</p>
+  <div class="article-body" style="font-family: 'Sahitya'">
+    <p>પ્રાચીન કવિઓથી શરૂ કરીને આધુનિક લેખકો સુધી ગુજરાતી સાહિત્યની યાત્રા અદ્ભુત રહી છે. દરેક યુગે નવી શૈલી અને નવા વિચારો આપ્યા છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Shankar 1 (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Shankar 1</div>
   <div class="article-title" style="font-family: 'Shankar'">શ્રી શંકર મંદિર</div>
-  <div class="article-body">
-    <p>પ્રાચીન સમયથી ભારતના મંદિરો શ્રદ્ધા, કલા, અને સ્થાપત્યકળાના અદ્ભુત નમૂનાઓ છે. દર્શન માટે લાખો ભક્તો દર વર્ષે અહીં આવે છે.</p>
+  <div class="article-body" style="font-family: 'Shankar'">
+    <p>પ્રાચીન સમયથી ભારતના મંદિરો શ્રદ્ધા અને સ્થાપત્યકળાના અદ્ભુત નમૂનાઓ છે. દર્શન માટે લાખો ભક્તો દર વર્ષે અહીં આવે છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Shlock (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Shlock</div>
   <div class="article-title" style="font-family: 'Shlock'">પ્રેમની શાયરી</div>
-  <div class="article-body">
+  <div class="article-body" style="font-family: 'Shlock'">
     <p>જિંદગીના દરેક પળમાં એક નવી કવિતા છુપાયેલી છે. જરૂર છે માત્ર તેને શબ્દોમાં ઢાળવાની. શાયરી એ હૃદયની ભાષા છે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Sundar (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Sundar</div>
   <div class="article-title" style="font-family: 'Sundar'">શુભ લગ્ન</div>
-  <div class="article-subtitle">આપ સૌને સ્નેહપૂર્વક આમંત્રણ</div>
-  <div class="article-body">
-    <p>અમારા વ્હાલા પુત્ર <b>તેજસ</b>ના શુભ લગ્ન પ્રસંગે આપને સહકુટુંબ પધારવા વિનંતી. તારીખ ૨૫મી ડિસેમ્બર, ૨૦૨૬ના રોજ સાંજે ૭ વાગ્યે વડોદરા મુકામે.</p>
+  <div class="article-body" style="font-family: 'Sundar'">
+    <p>શુભ લગ્ન પ્રસંગે આપને સહકુટુંબ પધારવાનું ભાવભર્યું આમંત્રણ. આપની ઉપસ્થિતિ અમારા આનંદમાં અભિવૃદ્ધિ કરશે.</p>
   </div>
 </article>
 
 <article>
-  <div class="display-name">Tejas (heading) + Noto Sans Gujarati (body)</div>
+  <div class="display-name">Tejas</div>
   <div class="article-title" style="font-family: 'Tejas'">આધુનિક ટેકનોલોજી</div>
-  <div class="article-body">
-    <p>આજના યુગમાં કૃત્રિમ બુદ્ધિમત્તા (AI) એ આપણા જીવનનો અભિન્ન ભાગ બની ગઈ છે. મોબાઈલ એપ્લિકેશન્સથી લઈને સ્વયંસંચાલિત વાહનો સુધી — દરેક ક્ષેત્રમાં ટેકનોલોજી નવી ઊંચાઈઓ સર કરી રહી છે.</p>
+  <div class="article-body" style="font-family: 'Tejas'">
+    <p>આજના યુગમાં ટેકનોલોજી આપણા જીવનનો અભિન્ન ભાગ બની ગઈ છે. મોબાઈલથી લઈને સ્વયંસંચાલિત વાહનો સુધી નવી ઊંચાઈઓ સર થઈ રહી છે.</p>
   </div>
 </article>
 
