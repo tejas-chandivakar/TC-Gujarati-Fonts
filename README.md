@@ -2,7 +2,7 @@
 
 # 🅃🄲 Gujarati Fonts
 
-### *Handcrafted Gujarati typefaces for designers, developers & creators*
+### *Gujarati typefaces for designers, developers & creators*
 
 ![Fonts](https://img.shields.io/badge/Fonts-11-b8390e?style=for-the-badge)
 ![Format](https://img.shields.io/badge/Format-OTF-1a1a1a?style=for-the-badge)
