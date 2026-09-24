@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fonts-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "E:/TC Gujarati Fonts"],
+      "port": 8765,
+      "url": "http://localhost:8765/samples/preview.html"
+    }
+  ]
+}

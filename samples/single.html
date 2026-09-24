@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<title>Font Preview</title>
+<style>
+  @font-face { font-family: "Bhakti"; src: url("../fonts/Bhakti.otf"); }
+  @font-face { font-family: "Dhanush Vadodara"; src: url("../fonts/Dhanush Vadodara.otf"); }
+  @font-face { font-family: "Dhanush Vadodara Dark"; src: url("../fonts/Dhanush Vadodara Dark.otf"); }
+  @font-face { font-family: "Kala"; src: url("../fonts/Kala.otf"); }
+  @font-face { font-family: "kalarav"; src: url("../fonts/kalarav.otf"); }
+  @font-face { font-family: "Patrika"; src: url("../fonts/Patrika.otf"); }
+  @font-face { font-family: "Sahitya"; src: url("../fonts/Sahitya.otf"); }
+  @font-face { font-family: "Shankar"; src: url("../fonts/Shankar 1.otf"); }
+  @font-face { font-family: "Shlock"; src: url("../fonts/Shlock.otf"); }
+  @font-face { font-family: "Sundar"; src: url("../fonts/Sundar.otf"); }
+  @font-face { font-family: "Tejas"; src: url("../fonts/Tejas.otf"); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: linear-gradient(135deg, #fdfaf3 0%, #f5e9d3 100%);
+    font-family: -apple-system, "Segoe UI", sans-serif;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 50px 60px;
+    box-shadow: 0 8px 24px rgba(184, 57, 14, 0.08);
+    border: 1px solid #e6dcc7;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+  }
+  .label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #b8390e;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .name {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .sample {
+    font-size: 68px;
+    line-height: 1.3;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+  }
+  .digits {
+    font-size: 36px;
+    color: #6b5b45;
+    letter-spacing: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="label">TC Gujarati Fonts</div>
+  <div class="name" id="name">—</div>
+  <div class="sample" id="sample">ગુજરાતી</div>
+  <div class="digits" id="digits">૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯</div>
+</div>
+<script>
+  const params = new URLSearchParams(location.search);
+  const font = params.get('font') || 'Bhakti';
+  const label = params.get('label') || font;
+  document.getElementById('name').textContent = label;
+  document.getElementById('sample').style.fontFamily = `"${font}"`;
+  document.getElementById('digits').style.fontFamily = `"${font}"`;
+</script>
+</body>
+</html>
