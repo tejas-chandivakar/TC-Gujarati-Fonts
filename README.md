@@ -387,6 +387,6 @@ Have a Gujarati font you'd like to add? Contributions are welcome!
 
 **⭐ Found this useful? Please star the repo!**
 
-*Made with ❤️ for the Gujarati design community*
+*Made with ❤️ for the community of Gujarati font users*
 
 </div>
