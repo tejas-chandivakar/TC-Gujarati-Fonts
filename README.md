@@ -138,15 +138,24 @@ Text('ગુજરાતી ભાષા વિશ્વની સૌથી પ�
 4. Write long paragraphs — all conjuncts and matras render correctly
 </details>
 
-### 🧩 Which display font pairs best with body Noto?
+### 🧩 Display Font + Noto Body — Recommended Pairings
 
-| Body font | Recommended display pairing | Vibe |
-|-----------|-----------------------------|------|
-| Noto Sans Gujarati | **Bhakti** | Religious, devotional |
-| Noto Sans Gujarati | **Sundar** | Wedding, festive |
-| Noto Sans Gujarati | **Patrika** | News, editorial, magazine |
-| Noto Sans Gujarati | **Tejas** | Modern apps, tech blogs |
-| Noto Sans Gujarati | **Shankar 1** | Traditional, ceremonial |
+Every Unicode display font in this collection pairs cleanly with Noto Sans Gujarati as the body font. Pick the display font that matches your project's mood:
+
+| # | Display Font | Body Font | Best Suited For |
+|---|--------------|-----------|-----------------|
+| 1 | **Bhakti** | Noto Sans Gujarati | Religious posters, devotional posts, bhajan lyrics |
+| 2 | **Dhanush Vadodara** | Noto Sans Gujarati | Bold headlines, event banners, YouTube titles |
+| 3 | **Dhanush Vadodara Dark** | Noto Sans Gujarati | High-impact announcements, video thumbnails |
+| 4 | **Kala** | Noto Sans Gujarati | Cultural articles, art & literature blogs |
+| 5 | **Patrika** | Noto Sans Gujarati | Newspaper, magazine, editorial pieces |
+| 6 | **Sahitya** | Noto Sans Gujarati | Book covers, poetry collections, literary journals |
+| 7 | **Shankar 1** | Noto Sans Gujarati | Temple content, ceremonial invites, traditional posters |
+| 8 | **Shlock** | Noto Sans Gujarati | Shayari, quotes, Instagram captions |
+| 9 | **Sundar** | Noto Sans Gujarati | Wedding cards, festival greetings, invitations |
+| 10 | **Tejas** | Noto Sans Gujarati | Modern app UI, tech blogs, contemporary branding |
+
+> ⚠️ **Kalarav** is a legacy ASCII-mapped font and cannot be used with Unicode body text. See [Compatibility & Limitations](#-compatibility--limitations).
 
 ---
 
