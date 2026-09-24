@@ -1,0 +1,10 @@
+# Treat font files and images as binary — never apply line-ending conversion
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
