@@ -17,7 +17,7 @@
 
 ## 📖 About
 
-**TC Gujarati Fonts** ek carefully curated collection chhe **11 beautiful Gujarati typefaces** ni — designers, publishers, video editors ane app developers mate. Har font unique personality dharaave chhe — devotional calligraphy thi le ne modern display styles sudhi.
+**TC Gujarati Fonts** is a carefully curated collection of **11 beautiful Gujarati typefaces** for designers, publishers, video editors, and app developers. Each font brings its own personality — from devotional calligraphy to modern display styles — perfect for headlines, posters, invitations, apps, and editorial layouts.
 
 ---
 
@@ -56,20 +56,20 @@
 <details>
 <summary><strong>🪟 Windows</strong></summary>
 
-1. `fonts/` folder open karo
-2. Badha `.otf` files select karo (`Ctrl + A`)
-3. Right-click → **Install** (badha users mate: **Install for all users**)
+1. Open the `fonts/` folder
+2. Select all `.otf` files (`Ctrl + A`)
+3. Right-click → **Install** (or **Install for all users** for system-wide access)
 
-Ke pachi manually copy karo `C:\Windows\Fonts\` ma.
+Alternatively, copy the files manually into `C:\Windows\Fonts\`.
 </details>
 
 <details>
 <summary><strong>🍎 macOS</strong></summary>
 
-1. `.otf` files par double-click karo
-2. **Font Book** khulshe → **Install Font** button dabao
+1. Double-click any `.otf` file
+2. **Font Book** will open → click **Install Font**
 
-Ke pachi drag-drop `~/Library/Fonts/` ma.
+Or drag them into `~/Library/Fonts/`.
 </details>
 
 <details>
@@ -102,7 +102,7 @@ fc-cache -fv
 <details>
 <summary><strong>📱 Flutter</strong></summary>
 
-`pubspec.yaml`:
+Add to your `pubspec.yaml`:
 
 ```yaml
 flutter:
@@ -115,7 +115,7 @@ flutter:
         - asset: assets/fonts/Tejas.otf
 ```
 
-Widget ma:
+Use in a widget:
 
 ```dart
 Text(
@@ -129,7 +129,7 @@ Text(
 <summary><strong>📱 React Native</strong></summary>
 
 ```js
-// Assets Android/iOS folders ma link karo, pachi:
+// Link the assets under Android/iOS folders, then use:
 <Text style={{ fontFamily: 'Bhakti', fontSize: 32 }}>
   ગુજરાતી અક્ષર
 </Text>
@@ -140,13 +140,13 @@ Text(
 
 ## 🚀 Usage
 
-Live preview joyva mate — local server chalavo:
+To view live previews locally, start a simple HTTP server:
 
 ```bash
 python -m http.server 8765
 ```
 
-Pachi browser ma kholo: [http://localhost:8765/samples/preview.html](http://localhost:8765/samples/preview.html)
+Then open in your browser: [http://localhost:8765/samples/preview.html](http://localhost:8765/samples/preview.html)
 
 ---
 
@@ -176,7 +176,7 @@ TC Gujarati Fonts/
 │   ├── Bhakti.otf
 │   ├── Dhanush Vadodara.otf
 │   └── ... (11 fonts total)
-├── samples/                 # Previews & samples
+├── samples/                 # Previews and samples
 │   ├── all-fonts.png        # Combined preview image
 │   ├── preview.html         # Interactive web preview
 │   ├── single.html          # Single-font preview page
@@ -190,21 +190,21 @@ TC Gujarati Fonts/
 
 ## 📜 License
 
-Aa collection ma badha fonts na respective owners/designers pase original copyrights chhe. Personal ane educational use mate free chhe. **Commercial use** pahela original font designers ni permission lo.
+All fonts in this collection retain the original copyrights of their respective owners and designers. They are free to use for personal and educational purposes. For **commercial use**, please obtain permission from the original font designers.
 
 ---
 
 ## 🤝 Contributing
 
-Navi Gujarati fonts add karva chhe? Welcome!
+Have a Gujarati font you'd like to add? Contributions are welcome!
 
-1. Repo fork karo
-2. `fonts/` folder ma tamaru font mukho
-3. `samples/individual/<font-name>.png` ma preview add karo
-4. README table update karo
-5. Pull Request kholo
+1. Fork the repository
+2. Add your font file to the `fonts/` folder
+3. Add a preview image to `samples/individual/<font-name>.png`
+4. Update the gallery table in the README
+5. Open a Pull Request
 
-**Format:** `.otf` preferred, `.ttf` accepted. Font ne proper Gujarati Unicode support hovi joiye.
+**Format:** `.otf` preferred, `.ttf` also accepted. The font must support proper Gujarati Unicode characters.
 
 ---
 
@@ -212,12 +212,13 @@ Navi Gujarati fonts add karva chhe? Welcome!
 
 **Maintainer:** Tejas Chandivakar
 **Email:** tejaschandivakar@gmail.com
+**GitHub:** [@tejas-chandivakar](https://github.com/tejas-chandivakar)
 
 ---
 
 <div align="center">
 
-**⭐ Aa repo useful lagyu? Star karo!**
+**⭐ Found this useful? Please star the repo!**
 
 *Made with ❤️ for the Gujarati design community*
 
